@@ -1,0 +1,42 @@
+{
+    "name": "CalendarList",
+    "author": "Matthew Flickinger and Sean Caron",
+    "description": "Allows for navigating categories by page date",
+    "version": "0.4",
+
+    "AutoloadNamespaces": {
+        "MediaWiki\\Extension\\CalendarList\\": "src/"
+    },
+
+    "HookHandlers": {
+        "CalendarListHooks": {
+            "class": "MediaWiki\\Extension\\CalendarList\\Hooks"
+        }
+    },
+
+    "Hooks": {
+        "BeforePageDisplay": "CalendarListHooks"
+    },
+
+    "ResourceFileModulePaths": {
+        "localBasePath": "modules/ext.CalendarList",
+        "remoteExtPath": "CalendarList/modules/ext.CalendarList"
+    },
+
+    "ResourceModules": {
+        "ext.CalendarList": {
+            "styles": [
+                "style.css"
+            ],
+            "packageFiles": [
+                "behavior.js"
+            ],
+            "dependencies": [
+		"jquery",
+                "jquery.cookie",
+                "mediawiki.util"
+            ]
+        }
+    },
+    "manifest_version": 2
+}

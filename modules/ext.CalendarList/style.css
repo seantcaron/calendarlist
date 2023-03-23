@@ -1,0 +1,80 @@
+.calendarlist-cal {
+    cursor: default;
+    height: 16.2em;
+    width: 17.5em;
+    background: #f3f3f3;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+}
+
+.calendarlist-cal .cal-header, .calendarlist-cal .cal-footer {
+    height:2em;
+    vertical-align: middle;
+}
+.calendarlist-cal .cal-header div {
+    display: block;
+    height: 2em;
+    float:left;
+    text-align: center;
+}
+.calendarlist-cal .cal-title {
+    width: 7.5em;
+}
+.calendarlist-cal .cal-header .cal-title {
+    cursor: pointer;
+}
+.calendarlist-cal .next, .calendarlist-cal .prev {
+    width: 5em;
+}
+.calendarlist-cal .cal-footer div {
+    display:block;
+    height:2em;
+    float:left;
+    text-align:center;
+}
+.calendarlist-cal .cal-body {
+    height: 12em;
+    width: 17.5em;
+    clear: both;
+    overflow: hidden;
+}
+.calendarlist-cal .cal-body .scroll {
+    width: 99em;
+}
+.calendarlist-cal .cal-body div {
+    float:left;
+    height: 12em;;
+    width: 17.5em;
+}
+.calendarlist-cal .cal-body .box-down,.box-up {
+    clear: left;
+    margin-left: 17.5em;
+}
+.calendarlist-cal .cal-body .box-left {
+    clear:left;
+}
+.calendarlist-cal table {
+    padding: 0; margin: 0; border:0; outline: 0;
+    height: 12em;
+    width: 17.5em;
+    border-spacing: 0;
+}
+.calendarlist-cal th, .calendarlist-cal td {
+    padding: 0;
+    text-align:center;
+    color: #555;
+}
+.calendarlist-cal .cal-body {
+    border-bottom: .1em solid black;
+    border-top: .1em solid black;
+}
+.calendarlist-cal .cal-body .unavail {
+    color:grey;
+    background: #dddddd;
+}
+.calendarlist-cal .cal-body .event {
+    background: #fffeff;
+    color: #000;
+    font-weight: bold;
+    cursor: pointer;
+}
