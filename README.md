@@ -27,5 +27,6 @@ Currently only one link can be displayed for a given date.
 ### Credits
 
 Originally developed my Matthew Flickinger
+
 Presently maintained by Sean Caron
 
