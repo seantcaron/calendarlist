@@ -6,7 +6,7 @@ This extension changes a bulleted list of links that include dates
 in their names to a calendar layout.
 
 To enable this layout, you need to wrap the list of documents
-in a <div> with a class of "calendarlist". For example:
+in a div with a class of "calendarlist". For example:
 
 ```
 <div class="calendarlist">
