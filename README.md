@@ -7,7 +7,9 @@ in their names to a calendar layout.
 
 ### Installation
 
-Clone this repo into the extensions directory of your MediaWiki instance.
+Create a CalendarList directory in the extensions directory of your MediaWiki instance.
+
+Clone this repo and copy the files into the extensions/CalendarList directory.
 
 Add the following to LocalSettings.php:
 
