@@ -5,6 +5,17 @@
 This extension changes a bulleted list of links that include dates
 in their names to a calendar layout.
 
+### Installation
+
+Clone this repo into the extensions directory of your MediaWiki instance.
+
+Add the following to LocalSettings.php:
+
+```
+wfLoadExtension('CalendarList');
+```
+
+### Usage
 To enable this layout, you need to wrap the list of documents
 in a div with a class of "calendarlist". For example:
 
